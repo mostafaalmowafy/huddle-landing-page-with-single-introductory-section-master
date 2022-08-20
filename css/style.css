@@ -64,7 +64,7 @@ body {
 
     }
 }
-main{
+.content{
     display: flex;
     position: relative;
     justify-content: space-between;
@@ -72,12 +72,12 @@ main{
     
 }
 @media (max-width:375px){
-    main{
+    .content{
         flex-direction: column;
         text-align: center;
     }
 }
-main .image img{
+.content .image img{
     width: 100%;
 }
 .info{
