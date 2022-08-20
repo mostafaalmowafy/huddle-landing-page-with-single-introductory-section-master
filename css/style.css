@@ -44,7 +44,6 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
-    -webkit-transform: translate(-50% , -50%);
     background-color: hsl(257, 40%, 49%);
 }
 @media (max-width:375px){
@@ -163,7 +162,6 @@ ul li:hover i{
         flex-direction: column;
         align-items: center;
         transform: translateX(-18px);
-        -webkit-transform: translateX(-18px);
         float: none;
     }
 }
